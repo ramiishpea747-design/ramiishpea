@@ -1,0 +1,32 @@
+body{
+font-family: Arial;
+margin:20px;
+}
+
+.container{
+display:flex;
+}
+
+.left,.right{
+width:50%;
+padding:15px;
+border:1px solid greenyellow;
+}
+
+.person{
+float:left;
+width:220px;
+margin:10px;
+padding:10px;
+border:1px solid black;
+overflow:auto;
+}
+
+.clear{
+clear:both;
+}
+
+input,select,textarea{
+width:250px;
+padding:5px;
+}
